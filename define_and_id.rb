@@ -9,19 +9,22 @@
 
 # YOU DO the rest:
 
+# This method works on string data types. It returns a boolean, based on whether the argument is contained in the orignial string.
+# In this case, it returns false. 
+puts "Hello World".include?("Hello")
 
-"Hello World".include?("Hello")
+# This method works on a string data type. It returns a boolean, based on whether the argument contains all the last characters in the string, in the correct order. 
+# In this case, it returns false.  
+puts "Hello World".end_with?("Hello")
 
+# This is the same method as the one above, however it returns true because the string does end with "rld".
+puts "Hello World".end_with?("rld")
 
-"Hello World".end_with?("Hello")
+#This method works on integers, and returns a boolean data type. True if the integer is even, false if the integer is false. 
+ puts 12.even?
 
-
-"Hello World".end_with?("rld")
-
-
-12.even?
-
-
-18.next
+#This method works on integers, and returns the next highest integer.
+# In this case, it returns 19
+puts 18.next
 
 
